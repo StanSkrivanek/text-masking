@@ -1,0 +1,49 @@
+html, body{
+  background: url(../img/river.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.abs{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+@keyframes mover{
+  100%{
+    background-position: top left;
+  }
+}
+
+#over{
+height: 100%;
+z-index: 20;
+background: url(../img/br_white.svg) no-repeat center fixed ;
+background-size: cover;
+animation: mover 3s ease;
+animation-fill-mode: forwards;
+}
+
+h1{
+font-family: Oswald, sans-serif;
+font-size: 20vw;
+text-align: center;
+display: block;
+padding: 200px 0 0 0;
+margin: 0;
+}
+#bg-heading{
+  color: #fff;
+}
+#masked-image{
+  background: url(../img/br_blue.svg) no-repeat center fixed ;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: mover 3s ease;
+  animation-fill-mode: forwards;
+}
