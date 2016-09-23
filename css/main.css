@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+body {
+  font-family: "Titillium Web", Arial, sans-serif; }
+
+h1, h2, h3, h4 {
+  font-family: Oswald, Georgia, serif; }
+
+p {
+  font-family: "Titillium Web", Arial, sans-serif; }
+
+a {
+  text-decoration: none; }

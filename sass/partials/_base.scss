@@ -1,0 +1,16 @@
+// add basic styling that is related to entire website, like 'BODY' or 'HEADINGS' ect. (this mean that is not related to specific 'modules')
+body{
+  font-family: $text-font;
+}
+
+h1, h2, h3, h4{
+  font-family: $header-font;
+}
+
+p{
+  font-family: $text-font;
+}
+
+a{
+  text-decoration: none;
+}
