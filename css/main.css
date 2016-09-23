@@ -26,13 +26,22 @@ html, body {
   width: 100%; }
 
 @keyframes mover {
+  0% {
+    opacity: 0;
+    font-size: 5vw; }
   100% {
-    background-position: top left; } }
+    background-position: top left;
+    opacity: 0.8;
+    font-size: 20vw; } }
 #over {
   height: 100%;
   z-index: 20;
   background: url(../img/br_white.svg) no-repeat center fixed;
   background-size: cover;
+  animation: mover 3s ease;
+  animation-fill-mode: forwards; }
+
+#under h1 {
   animation: mover 3s ease;
   animation-fill-mode: forwards; }
 

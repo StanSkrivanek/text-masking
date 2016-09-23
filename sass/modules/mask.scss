@@ -1,3 +1,6 @@
+// This example was inspired by article in issue 250 of "Web Designer" magazine 
+
+
 html, body{
   background: url(../img/river.jpg) no-repeat center;
   background-size: cover;
@@ -14,8 +17,14 @@ html, body{
 }
 
 @keyframes mover{
+  0%{
+    opacity: 0;
+    font-size: 5vw;
+  }
   100%{
     background-position: top left;
+    opacity: 0.8;
+    font-size: 20vw;
   }
 }
 
@@ -27,6 +36,10 @@ background-size: cover;
 animation: mover 3s ease;
 animation-fill-mode: forwards;
 }
+#under h1{
+  animation: mover 3s ease;
+  animation-fill-mode: forwards;
+}
 
 h1{
 font-family: Oswald, sans-serif;
@@ -36,9 +49,11 @@ display: block;
 padding: 200px 0 0 0;
 margin: 0;
 }
+
 #bg-heading{
   color: #fff;
 }
+
 #masked-image{
   background: url(../img/br_blue.svg) no-repeat center fixed ;
   background-size: cover;
@@ -47,3 +62,34 @@ margin: 0;
   animation: mover 3s ease;
   animation-fill-mode: forwards;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
